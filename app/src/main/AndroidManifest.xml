@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="minseon.dodeok">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/dodeok"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/dodeok_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Teacher.StatusStudent"></activity>
+        <activity android:name=".Teacher.JoinStudent" />
+        <activity
+            android:name=".Both.Signup_2"
+            android:theme="@style/MovieDialog" />
+        <activity
+            android:name=".Student.Emotion2" />
+        <activity
+            android:name=".Teacher.EmotionNumber"
+            android:theme="@style/MovieDialog"/>
+        <activity
+            android:name=".Teacher.EmotionStudent"
+            android:theme="@style/MovieDialog" />
+        <activity
+            android:name=".Student.AnswerGrade"
+            android:theme="@style/MovieDialog" />
+        <activity
+            android:name=".Student.AnswerMovie"
+            android:theme="@style/MovieDialog" />
+        <activity
+            android:name=".Student.AnswerDescriptive"
+            android:theme="@style/MovieDialog" />
+        <activity android:name=".Teacher.CheckAnswer2" />
+        <activity android:name=".Teacher.GetNumber" />
+        <activity android:name=".Teacher.AnswerStudent" />
+        <activity
+            android:name=".Teacher.StudentDelete"
+            android:theme="@style/MovieDialog" />
+        <activity
+            android:name=".Student.ShowEmotion"
+            android:theme="@style/MovieDialog" />
+        <activity
+            android:name=".Teacher.StudentAdd"
+            android:theme="@style/MovieDialog" />
+        <activity android:name=".Teacher.MakeClass" />
+        <activity android:name=".Teacher.Home2" />
+        <activity android:name=".Teacher.CheckAnswer" />
+        <activity android:name=".Teacher.ManageMission2" />
+        <activity android:name=".Teacher.ManageMission" />
+        <activity android:name=".Teacher.ManageStudent" />
+        <activity android:name=".Teacher.Manage" />
+        <activity android:name=".Student.Unit" />
+        <activity
+            android:name=".Student.newClassadd"
+            android:theme="@style/MovieDialog" />
+        <activity android:name=".Student.newClass" />
+        <activity
+            android:name=".Student.Emotion"/>
+        <activity
+            android:name=".Student.Descriptive"
+            android:theme="@style/MovieDialog" />
+        <activity android:name=".Student.Game" />
+        <activity
+            android:name=".Student.Movie"
+            android:theme="@style/MovieDialog" />
+        <activity
+            android:name=".Student.Grade"
+            android:theme="@style/MovieDialog" />
+        <activity android:name=".Student.Home" />
+        <activity android:name=".Both.Login" />
+        <activity android:name=".Both.Signup_1" />
+        <activity
+            android:name=".Both.MainActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+</manifest>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/textback"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="10dp"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content">
+
+    <ImageButton
+        android:id="@+id/descriptive_btn1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@android:drawable/ic_menu_revert"
+        android:background="#00ff0000"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:onClick="onClickDescriptiveButton1"/>
+
+    <TextView
+        android:id="@+id/descriptive_text1"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="야구를 하던 민호는 그만 옆집 창문을 깨고 말았습니다.
+        \n민호는 어떻게 해야할까요?"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/ohmnigullim"/>
+    
+    <EditText
+        android:id="@+id/descriptive_edittext1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/descriptive_text1"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/descriptive_btn2"
+        android:layout_below="@id/descriptive_edittext1"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/login_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="미션 완료 후 나의 감정 선택하기"
+        android:textColor="@color/white"
+        android:fontFamily="@font/ohmnigullim050"
+        android:onClick="onClickDescriptiveButton2"/>
+
+    <TextView
+        android:id="@+id/descriptive_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/descriptive_btn2"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="Do덕을 함께하는 친구"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/ohmnigullim"/>
+
+    <View
+        android:id="@+id/descriptive_view1"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/descriptive_text2"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:background="#4682B4" />
+
+    <TextView
+        android:id="@+id/descriptive_text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/descriptive_view1"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="친구이름"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/ohmnigullim"/>
+
+
+</RelativeLayout>

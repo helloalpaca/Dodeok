@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Teacher.ManageMission2">
+
+    <TextView
+        android:id="@+id/mission2_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_login_background"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_alignLeft="@id/mission2_btn1"
+        android:text="4학년"
+        android:textSize="40dp"
+        android:fontFamily="@font/ohmnigullim" />
+
+    <TextView
+        android:id="@+id/mission2_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_login_background"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_alignRight="@id/mission2_btn1"
+        android:text="1단원"
+        android:textSize="40dp"
+        android:fontFamily="@font/ohmnigullim" />
+
+    <Button
+        android:id="@+id/mission2_btn1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mission2_text1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/login_button2"
+        android:text="미션 수정"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/ohmnigullim"
+        android:onClick="onClickMission2Button1"/>
+
+    <Button
+        android:id="@+id/mission2_btn2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mission2_btn1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/login_button2"
+        android:text="기본 미션 추가"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/ohmnigullim"
+        android:onClick="onClickMission2Button2"/>
+
+    <Button
+        android:id="@+id/mission2_btn3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mission2_btn2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/login_button2"
+        android:text="기본 미션 다운"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/ohmnigullim"
+        android:onClick="onClickMission2Button3"/>
+
+</RelativeLayout>

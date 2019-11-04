@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Student.Emotion">
+
+    <TableLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow>
+
+            <TableLayout
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/emotion_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00ff0000"
+                    android:src="@drawable/emotion_1"
+                    android:onClick="onClickEmotionButton1"/>
+                <TextView
+                    android:id="@+id/textview_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="힘나다" />
+            </TableLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#4682B4" />
+
+            <TableLayout
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/emotion_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00ff0000"
+                    android:src="@drawable/emotion_2"
+                    android:onClick="onClickEmotionButton2"/>
+                <TextView
+                    android:id="@+id/textview_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="황당하다" />
+            </TableLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#4682B4" />
+
+            <TableLayout
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/emotion_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/emotion_3"
+                    android:background="#00ff0000"
+                    android:onClick="onClickEmotionButton3"/>
+                <TextView
+                    android:id="@+id/textview_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="혼란스럽다" />
+            </TableLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#4682B4" />
+
+            <TableLayout
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/emotion_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00ff0000"
+                    android:src="@drawable/emotion_4"
+                    android:onClick="onClickEmotionButton4"/>
+                <TextView
+                    android:id="@+id/textview_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="피곤하다" />
+            </TableLayout>
+
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#4682B4" />
+        <TableRow>
+
+            <TableLayout
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/emotion_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00ff0000"
+                    android:src="@drawable/emotion_5"
+                    android:onClick="onClickEmotionButton5"/>
+                <TextView
+                    android:id="@+id/textview_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="@string/emotion_5" />
+            </TableLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#4682B4" />
+
+            <TableLayout
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/emotion_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00ff0000"
+                    android:src="@drawable/emotion_6"
+                    android:onClick="onClickEmotionButton6"/>
+                <TextView
+                    android:id="@+id/textview_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="@string/emotion_6" />
+            </TableLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#4682B4" />
+
+            <TableLayout
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/emotion_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/emotion_7"
+                    android:background="#00ff0000"
+                    android:onClick="onClickEmotionButton7"/>
+                <TextView
+                    android:id="@+id/textview_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="@string/emotion_7" />
+            </TableLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#4682B4" />
+
+            <TableLayout
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/emotion_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00ff0000"
+                    android:src="@drawable/emotion_8"
+                    android:onClick="onClickEmotionButton8"/>
+                <TextView
+                    android:id="@+id/textview_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="@string/emotion_8" />
+            </TableLayout>
+
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#4682B4" />
+        <TableRow>
+
+            <TableLayout
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/emotion_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00ff0000"
+                    android:src="@drawable/emotion_9"
+                    android:onClick="onClickEmotionButton9"/>
+                <TextView
+                    android:id="@+id/textview_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="@string/emotion_9" />
+            </TableLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#4682B4" />
+
+            <TableLayout
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/emotion_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00ff0000"
+                    android:src="@drawable/emotion_10"
+                    android:onClick="onClickEmotionButton10"/>
+                <TextView
+                    android:id="@+id/textview_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="@string/emotion_10" />
+            </TableLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#4682B4" />
+
+            <TableLayout
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/emotion_11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/emotion_11"
+                    android:background="#00ff0000"
+                    android:onClick="onClickEmotionButton11"/>
+                <TextView
+                    android:id="@+id/textview_11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="@string/emotion_11" />
+            </TableLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#4682B4" />
+
+            <TableLayout
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/emotion_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00ff0000"
+                    android:src="@drawable/emotion_12"
+                    android:onClick="onClickEmotionButton12"/>
+                <TextView
+                    android:id="@+id/textview_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="@string/emotion_12" />
+            </TableLayout>
+
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#4682B4" />
+        <TableRow>
+
+            <TableLayout
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/emotion_13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00ff0000"
+                    android:src="@drawable/emotion_13"
+                    android:onClick="onClickEmotionButton13"/>
+                <TextView
+                    android:id="@+id/textview_13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="@string/emotion_13" />
+            </TableLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#4682B4" />
+
+            <TableLayout
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/emotion_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00ff0000"
+                    android:src="@drawable/emotion_14"
+                    android:onClick="onClickEmotionButton14"/>
+                <TextView
+                    android:id="@+id/textview_14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="@string/emotion_14" />
+            </TableLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#4682B4" />
+
+            <TableLayout
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/emotion_15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/emotion_15"
+                    android:background="#00ff0000"
+                    android:onClick="onClickEmotionButton15"/>
+                <TextView
+                    android:id="@+id/textview_15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="@string/emotion_15" />
+            </TableLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#4682B4" />
+
+            <TableLayout
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/emotion_16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00ff0000"
+                    android:src="@drawable/emotion_16"
+                    android:onClick="onClickEmotionButton16"/>
+                <TextView
+                    android:id="@+id/textview_16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="@string/emotion_16" />
+            </TableLayout>
+
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#4682B4" />
+        <TableRow>
+
+            <TableLayout
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/emotion_17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00ff0000"
+                    android:src="@drawable/emotion_17"
+                    android:onClick="onClickEmotionButton17"/>
+                <TextView
+                    android:id="@+id/textview_17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="@string/emotion_17" />
+            </TableLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#4682B4" />
+
+            <TableLayout
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/emotion_18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00ff0000"
+                    android:src="@drawable/emotion_18"
+                    android:onClick="onClickEmotionButton18"/>
+                <TextView
+                    android:id="@+id/textview_18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="@string/emotion_18" />
+            </TableLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#4682B4" />
+
+            <TableLayout
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/emotion_19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/emotion_19"
+                    android:background="#00ff0000"
+                    android:onClick="onClickEmotionButton19"/>
+                <TextView
+                    android:id="@+id/textview_19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="@string/emotion_19" />
+            </TableLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#4682B4" />
+
+            <TableLayout
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/emotion_20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00ff0000"
+                    android:src="@drawable/emotion_20"
+                    android:onClick="onClickEmotionButton20"/>
+                <TextView
+                    android:id="@+id/textview_20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="@string/emotion_20" />
+            </TableLayout>
+
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#4682B4" />
+        <TableRow>
+
+            <TableLayout
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/emotion_21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00ff0000"
+                    android:src="@drawable/emotion_21"
+                    android:onClick="onClickEmotionButton21"/>
+                <TextView
+                    android:id="@+id/textview_21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="@string/emotion_21" />
+            </TableLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#4682B4" />
+
+            <TableLayout
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/emotion_22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00ff0000"
+                    android:src="@drawable/emotion_22"
+                    android:onClick="onClickEmotionButton22"/>
+                <TextView
+                    android:id="@+id/textview_22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="@string/emotion_22" />
+            </TableLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#4682B4" />
+
+            <TableLayout
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/emotion_23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/emotion_23"
+                    android:background="#00ff0000"
+                    android:onClick="onClickEmotionButton23"/>
+                <TextView
+                    android:id="@+id/textview_23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="@string/emotion_23" />
+            </TableLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#4682B4" />
+
+            <TableLayout
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/emotion_24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00ff0000"
+                    android:src="@drawable/emotion_24"
+                    android:onClick="onClickEmotionButton24"/>
+                <TextView
+                    android:id="@+id/textview_24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="@string/emotion_24" />
+            </TableLayout>
+
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#4682B4" />
+        <TableRow>
+
+            <TableLayout
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/emotion_25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00ff0000"
+                    android:src="@drawable/emotion_25"
+                    android:onClick="onClickEmotionButton25"/>
+                <TextView
+                    android:id="@+id/textview_25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="@string/emotion_25" />
+            </TableLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#4682B4" />
+
+            <TableLayout
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/emotion_26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00ff0000"
+                    android:src="@drawable/emotion_26"
+                    android:onClick="onClickEmotionButton26"/>
+                <TextView
+                    android:id="@+id/textview_26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="@string/emotion_26" />
+            </TableLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#4682B4" />
+
+            <TableLayout
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/emotion_27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/emotion_27"
+                    android:background="#00ff0000"
+                    android:onClick="onClickEmotionButton27"/>
+                <TextView
+                    android:id="@+id/textview_27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="@string/emotion_27" />
+            </TableLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#4682B4" />
+
+            <TableLayout
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/emotion_28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00ff0000"
+                    android:src="@drawable/emotion_28"
+                    android:onClick="onClickEmotionButton28"/>
+                <TextView
+                    android:id="@+id/textview_28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="@string/emotion_28" />
+            </TableLayout>
+
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#4682B4" />
+        <TableRow>
+
+            <TableLayout
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/emotion_29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00ff0000"
+                    android:src="@drawable/emotion_29"
+                    android:onClick="onClickEmotionButton29"/>
+                <TextView
+                    android:id="@+id/textview_29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="@string/emotion_29" />
+            </TableLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#4682B4" />
+
+            <TableLayout
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/emotion_30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00ff0000"
+                    android:src="@drawable/emotion_30"
+                    android:onClick="onClickEmotionButton30"/>
+                <TextView
+                    android:id="@+id/textview_30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="@string/emotion_30" />
+            </TableLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#4682B4" />
+
+            <TableLayout
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/emotion_31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/emotion_31"
+                    android:background="#00ff0000"
+                    android:onClick="onClickEmotionButton31"/>
+                <TextView
+                    android:id="@+id/textview_31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="@string/emotion_31" />
+            </TableLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#4682B4" />
+
+            <TableLayout
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/emotion_32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00ff0000"
+                    android:src="@drawable/emotion_32"
+                    android:onClick="onClickEmotionButton32"/>
+                <TextView
+                    android:id="@+id/textview_32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="@string/emotion_32" />
+            </TableLayout>
+
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#4682B4" />
+        <TableRow>
+            <TableLayout
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/emotion_33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00ff0000"
+                    android:src="@drawable/emotion_33"
+                    android:onClick="onClickEmotionButton33"/>
+                <TextView
+                    android:id="@+id/textview_33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="@string/emotion_33" />
+            </TableLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#4682B4" />
+
+            <TableLayout
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/emotion_34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00ff0000"
+                    android:src="@drawable/emotion_34"
+                    android:onClick="onClickEmotionButton34"/>
+                <TextView
+                    android:id="@+id/textview_34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="@string/emotion_34" />
+            </TableLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#4682B4" />
+
+            <TableLayout
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/emotion_35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/emotion_35"
+                    android:background="#00ff0000"
+                    android:onClick="onClickEmotionButton35"/>
+                <TextView
+                    android:id="@+id/textview_35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="@string/emotion_35" />
+            </TableLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#4682B4" />
+
+            <TableLayout
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/emotion_36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#00ff0000"
+                    android:src="@drawable/emotion_36"
+                    android:onClick="onClickEmotionButton36"/>
+                <TextView
+                    android:id="@+id/textview_36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:text="@string/emotion_36" />
+            </TableLayout>
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#4682B4" />
+    </TableLayout>
+
+</ScrollView>

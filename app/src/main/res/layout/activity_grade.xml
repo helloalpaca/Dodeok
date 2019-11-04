@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="10dp"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content">
+
+    <ImageButton
+        android:id="@+id/grade_btn1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@android:drawable/ic_menu_revert"
+        android:background="#00ff0000"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:onClick="onClickGradeButton1"/>
+
+    <TextView
+        android:id="@+id/grade_text1"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="정직에 대하여\n고민해 보았습니까?"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/ohmnigullim"/>
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_below="@id/grade_text1"
+        android:layout_centerHorizontal="true"
+        android:numStars="3"
+        android:rating="0"
+        android:theme="@style/RatingBar"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/grade_btn2"
+        android:layout_below="@+id/ratingBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/login_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="미션 완료 후 나의 감정 선택하기"
+        android:textColor="@color/white"
+        android:fontFamily="@font/ohmnigullim050"
+        android:onClick="onClickGradeButton2"/>
+
+    <TextView
+        android:id="@+id/grade_text2"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/grade_btn2"
+        android:layout_marginLeft="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="Do덕을 함께하는 친구"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/ohmnigullim050"/>
+
+    <View
+        android:id="@+id/grade_view1"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/grade_text2"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:background="#4682B4" />
+
+    <TextView
+        android:id="@+id/grade_text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/grade_view1"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="친구이름"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/ohmnigullim050"/>
+
+
+</RelativeLayout>

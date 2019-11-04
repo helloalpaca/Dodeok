@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Both.Login">
+
+    <ImageView
+        android:id="@+id/login_img1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/login_edittext1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/login_img1"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/ohmnigullim"
+        android:hint="아이디"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/login_login_background"/>
+
+    <EditText
+        android:id="@+id/login_edittext2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/login_edittext1"
+        android:fontFamily="@font/ohmnigullim"
+        android:hint="비밀번호"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/login_login_background"/>
+
+    <CheckBox
+        android:id="@+id/login_check1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_edittext2"
+        android:layout_alignLeft="@id/login_edittext2"
+        android:text="자동 로그인"
+        android:fontFamily="@font/ohmnigullim"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/login_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/login_edittext2"
+        android:layout_alignBottom="@id/login_check1"
+        android:text="개인정보 취급방침"
+        android:fontFamily="@font/ohmnigullim"/>
+
+    <Button
+        android:id="@+id/login_btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_button1"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@id/login_check1"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:text="로그인"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/ohmnigullim"
+        android:textColor="@color/white"
+        android:onClick="onClickLoginButton1"/>
+
+    <Button
+        android:id="@+id/login_btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_button2"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@id/login_btn1"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="회원가입"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/ohmnigullim"
+        android:textColor="@color/white"
+        android:onClick="onClickLoginButton2"/>
+<!--
+    <TextView
+        android:id="@+id/textview_login_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="아이디"
+        android:fontFamily="@font/hereshow"
+        android:textSize="25dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="200dp"/>
+
+    <EditText
+        android:id="@+id/edittext_login_id"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textview_login_id"
+        android:layout_toRightOf="@id/textview_login_id"
+        android:layout_marginLeft="20dp"
+        android:paddingRight="5dp" />
+
+    <TextView
+        android:id="@+id/textview_login_pw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="비밀번호"
+        android:fontFamily="@font/hereshow"
+        android:textSize="25dp"
+        android:layout_below="@id/textview_login_id"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/edittext_login_pw"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textview_login_pw"
+        android:layout_toRightOf="@id/textview_login_pw"
+        android:layout_marginLeft="20dp"
+        android:inputType="textPassword"
+        android:paddingRight="5dp" />
+
+    <Button
+        android:id="@+id/btn_login2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="로그인"
+        android:fontFamily="@font/hereshow"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"/>
+-->
+</RelativeLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Student.newClass">
+
+    <ImageButton
+        android:id="@+id/btn_home2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@android:drawable/ic_menu_revert"
+        android:onClick="onClickNewClassButton1"/>
+
+    <TextView
+        android:id="@+id/textview_classcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ohmnigullim"
+        android:textColor="#000000"
+        android:text="학급코드입력"
+        android:textSize="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
+
+    <EditText
+        android:id="@+id/edittext_classcode"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textview_classcode"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/login_login_background"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:fontFamily="@font/ohmnigullim" />
+
+    <TextView
+        android:id="@+id/textview_nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ohmnigullim"
+        android:textColor="#000000"
+        android:text="이름 입력"
+        android:textSize="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/edittext_classcode"/>
+
+    <EditText
+        android:id="@+id/edittext_nickname"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textview_nickname"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/login_login_background"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:fontFamily="@font/nanumbarungothic" />
+
+    <Button
+        android:id="@+id/btn_newclass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/edittext_nickname"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/login_button1"
+        android:text="학급 가입하기"
+        android:textColor="@color/white"
+        android:fontFamily="@font/ohmnigullim"
+        android:textSize="30dp"
+        android:onClick="onClickNewClassButton2"/>
+
+</RelativeLayout>

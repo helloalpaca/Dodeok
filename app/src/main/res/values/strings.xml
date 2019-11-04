@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Do덕</string>
+    <string name="title_activity_home">Do덕</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="unit1">1. 도덕 공부, 행복한 우리</string>
+    <string name="unit2">2. 두번째 단원입니다.</string>
+    <string name="unit3">3. 세번째 단원입니다.</string>
+    <string name="unit4">4. 네번째 단원입니다.</string>
+    <string name="unit5">5. 다섯번째 단원입니다.</string>
+    <string name="unit6">6. 여섯번째 단원입니다.</string>
+    <string name="unit7">7. 일곱번째 단원입니다.</string>
+    <string name="unit8">8. 여덟번째 단원입니다.</string>
+    <string name="unit9">9. 아홉번째 단원입니다.</string>
+    <string name="unit10">10. 열번째 단원입니다.</string>
+    <string name="emotion_1">만족스럽다</string>
+    <string name="emotion_2">황당하다</string>
+    <string name="emotion_3">혼란스럽다</string>
+    <string name="emotion_4">피곤하다</string>
+    <string name="emotion_5">자신만만하다</string>
+    <string name="emotion_6">흥분되다</string>
+    <string name="emotion_7">짜증나다</string>
+    <string name="emotion_8">어색하다</string>
+    <string name="emotion_9">심심하다</string>
+    <string name="emotion_10">안심되다</string>
+    <string name="emotion_11">싫다</string>
+    <string name="emotion_12">신나다</string>
+    <string name="emotion_13">뿌듯하다</string>
+    <string name="emotion_14">사랑스럽다</string>
+    <string name="emotion_15">괴롭다</string>
+    <string name="emotion_16">설레다</string>
+    <string name="emotion_17">부럽다</string>
+    <string name="emotion_18">부담스럽다</string>
+    <string name="emotion_19">막막하다</string>
+    <string name="emotion_20">긴장하다</string>
+    <string name="emotion_21">기대되다</string>
+    <string name="emotion_22">귀찮다</string>
+    <string name="emotion_23">당황스럽다</string>
+    <string name="emotion_24">화나다</string>
+    <string name="emotion_25">모르겠다</string>
+    <string name="emotion_26">편안하다</string>
+    <string name="emotion_27">섭섭하다</string>
+    <string name="emotion_28">우울하다</string>
+    <string name="emotion_29">밉다</string>
+    <string name="emotion_30">고맙다</string>
+    <string name="emotion_31">기쁘다</string>
+    <string name="emotion_32">걱정되다</string>
+    <string name="emotion_33">답답하다</string>
+    <string name="emotion_34">미안하다</string>
+    <string name="emotion_35">즐겁다</string>
+    <string name="emotion_36">슬프다</string>
+    <string name="emotion_37">행복하다</string>
+    <string name="emotion_38">재미있다</string>
+    <string name="emotion_39">부끄럽다</string>
+    <string name="emotion_40">놀라다</string>
+</resources>

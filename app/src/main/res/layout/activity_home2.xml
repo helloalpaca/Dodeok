@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Teacher.Home2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/home2_btn_make"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <Button
+                android:id="@+id/home2_btn1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="50dp"
+                android:layout_centerHorizontal="true"
+                android:background="#00ff0000"
+                android:fontFamily="@font/ohmnigullim050"
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                android:onClick="onClickHome2Button1"/>
+
+            <Button
+                android:id="@+id/home2_btn2"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_below="@id/home2_btn1"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="50dp"
+                android:layout_centerHorizontal="true"
+                android:background="#00ff0000"
+                android:fontFamily="@font/ohmnigullim050"
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                android:onClick="onClickHome2Button2"/>
+
+            <Button
+                android:id="@+id/home2_btn3"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_below="@id/home2_btn2"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="50dp"
+                android:layout_centerHorizontal="true"
+                android:background="#00ff0000"
+                android:fontFamily="@font/ohmnigullim050"
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                android:onClick="onClickHome2Button3"/>
+
+            <Button
+                android:id="@+id/home2_btn4"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_below="@id/home2_btn3"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="50dp"
+                android:layout_centerHorizontal="true"
+                android:background="#00ff0000"
+                android:fontFamily="@font/ohmnigullim050"
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                android:onClick="onClickHome2Button4"/>
+
+            <Button
+                android:id="@+id/home2_btn5"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_below="@id/home2_btn4"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="50dp"
+                android:layout_centerHorizontal="true"
+                android:background="#00ff0000"
+                android:fontFamily="@font/ohmnigullim050"
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                android:onClick="onClickHome2Button5"/>
+
+            <Button
+                android:id="@+id/home2_btn6"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_below="@id/home2_btn5"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="50dp"
+                android:layout_centerHorizontal="true"
+                android:background="#00ff0000"
+                android:fontFamily="@font/ohmnigullim050"
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                android:onClick="onClickHome2Button6"/>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/home2_btn_make"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_button2"
+        android:layout_marginLeft="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:text="학급 생성하기"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/ohmnigullim"
+        android:textColor="@color/white"
+        android:onClick="onClickHome2ButtonJoin"/>
+
+</RelativeLayout>

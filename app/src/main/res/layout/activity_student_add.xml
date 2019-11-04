@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    tools:context=".Teacher.StudentAdd">
+
+    <TextView
+        android:id="@+id/studentadd_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="'권민선'학생을\n 승인하시겠습니까?"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:fontFamily="@font/ohmnigullim"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/studentadd_btn1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_button2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="30dp"
+        android:gravity="center"
+        android:text="예"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/ohmnigullim"
+        android:onClick="onClickStudentAddButton1"/>
+
+    <Button
+        android:id="@+id/studentadd_btn2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_button2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:text="아니오"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/ohmnigullim"
+        android:onClick="onClickStudentAddButton2"/>
+
+</RelativeLayout>

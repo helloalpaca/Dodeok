@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Teacher.ManageStudent">
+    <Button
+        android:id="@+id/manage2_btn1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/login_button2"
+        android:text="학생 승인/삭제"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/ohmnigullim"
+        android:onClick="onClickManage2Button1"/>
+
+    <Button
+        android:id="@+id/manage2_btn2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/manage2_btn1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/login_button2"
+        android:text="학생 감정 현황"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/ohmnigullim"
+        android:onClick="onClickManage2Button2"/>
+
+    <Button
+        android:id="@+id/manage3_btn3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/manage2_btn2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/login_button2"
+        android:text="학생 감정 다운로드"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/ohmnigullim"
+        android:onClick="onClickManage2Button3"/>
+
+</RelativeLayout>

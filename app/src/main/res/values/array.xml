@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="grade">
+        <item >3학년</item>
+        <item >4학년</item>
+        <item >5학년</item>
+        <item >6학년</item>
+    </string-array>
+    <string-array name="unit">
+        <item >1단원</item>
+        <item >2단원</item>
+        <item >3단원</item>
+        <item >4단원</item>
+        <item >5단원</item>
+        <item >6단원</item>
+    </string-array>
+    <string-array name="frequency">
+        <item >매일</item>
+        <item >평일</item>
+        <item >선택</item>
+    </string-array>
+    <string-array name="number">
+        <item >1번문제</item>
+        <item >2번문제</item>
+        <item >3번문제</item>
+        <item >4번문제</item>
+        <item >5번문제</item>
+        <item >6번문제</item>
+        <item >7번문제</item>
+        <item >8번문제</item>
+        <item >9번문제</item>
+        <item >10번문제</item>
+    </string-array>
+
+</resources>

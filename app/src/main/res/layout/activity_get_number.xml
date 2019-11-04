@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Teacher.GetNumber">
+
+    <Spinner
+        android:id="@+id/getnumber_spinner1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/unit" />
+
+    <Spinner
+        android:id="@+id/getnumber_spinner2"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/getnumber_spinner1"
+        android:layout_marginTop="50dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/number" />
+
+    <Button
+        android:id="@+id/getnumber_btn1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/getnumber_spinner2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/login_button2"
+        android:text="답변 확인"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/ohmnigullim"
+        android:onClick="onClickGetNumberButton1"/>
+
+    <Button
+        android:id="@+id/getnumber_btn2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/getnumber_btn1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/login_button2"
+        android:text="문항 감정 통계"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/ohmnigullim"
+        android:onClick="onClickGetNumberButton2"/>
+
+
+</RelativeLayout>

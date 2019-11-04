@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/textback"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="10dp"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content">
+
+    <ImageButton
+        android:id="@+id/btn_movie_back2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@android:drawable/ic_menu_revert"
+        android:background="#00ff0000"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:onClick="onClickAnswerMovieButton1"/>
+
+    <TextView
+        android:id="@+id/textview_movie_problem2"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="영상을 보고\n도덕성에 대해 생각해 봅시다."
+        android:textSize="20dp"
+        android:fontFamily="@font/ohmnigullim"/>
+
+    <Button
+        android:id="@+id/btn_movie2"
+        android:layout_below="@+id/textview_movie_problem2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/login_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="영상"
+        android:textColor="@color/white"
+        android:fontFamily="@font/ohmnigullim"
+        android:onClick="onClickAnswerMovieButton2"/>
+
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Teacher.ManageMission">
+
+
+    <Spinner
+        android:id="@+id/mission_spinner1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/grade" />
+
+    <Spinner
+        android:id="@+id/mission_spinner2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/mission_spinner1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/unit" />
+
+    <Button
+        android:id="@+id/mission_btn1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mission_spinner2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/login_button2"
+        android:text="미션 설정"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/ohmnigullim"
+        android:onClick="onClickMissionButton1"/>
+
+    <Button
+        android:id="@+id/mission_btn2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mission_btn1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/login_button2"
+        android:text="학생별답변 확인"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/ohmnigullim"
+        android:onClick="onClickMissionButton2"/>
+
+    <Button
+        android:id="@+id/mission_btn3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mission_btn2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/login_button2"
+        android:text="문항별답변 확인"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/ohmnigullim"
+        android:onClick="onClickMissionButton3"/>
+
+</RelativeLayout>

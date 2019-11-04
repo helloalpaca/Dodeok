@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/newclassadd_background"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="200dp">
+
+    <TextView
+        android:id="@+id/newclassadd_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="'양운4-1'학급에\n 가입하시겠습니까?"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:fontFamily="@font/ohmnigullim"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/newclassadd_btn1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/login_button2"
+        android:text="예"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/ohmnigullim"
+        android:onClick="onClickNewClassAddButton1"/>
+
+    <Button
+        android:id="@+id/newclassadd_btn2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_button2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="30dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:text="아니오"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/ohmnigullim"
+        android:onClick="onClickNewClassAddButton2"/>
+</RelativeLayout>

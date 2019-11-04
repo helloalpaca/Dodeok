@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Teacher.Manage">
+
+    <TextView
+        android:id="@+id/manage_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="망미초4-4"
+        android:textSize="40dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/ohmnigullim050"/>
+
+    <Button
+        android:id="@+id/manage_btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:background="#00ff0000"
+        android:layout_marginLeft="50dp"
+        android:fontFamily="@font/ohmnigullim050"
+        android:drawableStart="@drawable/manage_icon1"
+        android:drawableLeft="@drawable/manage_icon1"
+        android:text="   학습내용 관리"
+        android:textSize="20dp"
+        android:onClick="onClickManageButton1"/>
+
+    <View
+        android:id="@+id/manage_view1"
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:layout_below="@id/manage_btn1"
+        android:layout_alignLeft="@id/manage_btn1"
+        android:layout_centerHorizontal="true"
+        android:background="#4682B4" />
+
+    <Button
+        android:id="@+id/manage_btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/manage_btn1"
+        android:layout_marginLeft="50dp"
+        android:background="#00ff0000"
+        android:fontFamily="@font/ohmnigullim050"
+        android:drawableStart="@drawable/manage_icon2"
+        android:drawableLeft="@drawable/manage_icon2"
+        android:text="   학생 관리"
+        android:textSize="20dp"
+        android:onClick="onClickManageButton2"/>
+
+    <View
+        android:id="@+id/manage_view2"
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:layout_below="@id/manage_btn2"
+        android:layout_alignLeft="@id/manage_btn2"
+        android:layout_centerHorizontal="true"
+        android:background="#4682B4" />
+
+    <Button
+        android:id="@+id/manage_btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/manage_btn2"
+        android:layout_marginLeft="50dp"
+        android:background="#00ff0000"
+        android:fontFamily="@font/ohmnigullim050"
+        android:drawableStart="@drawable/manage_icon3"
+        android:drawableLeft="@drawable/manage_icon3"
+        android:text="    학습지 다운로드"
+        android:textSize="20dp"
+        android:onClick="onClickManageButton3"/>
+
+    <View
+        android:id="@+id/manage_view3"
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:layout_below="@id/manage_btn3"
+        android:layout_alignLeft="@id/manage_btn3"
+        android:layout_centerHorizontal="true"
+        android:background="#4682B4" />
+
+    <Button
+        android:id="@+id/manage_btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/manage_btn3"
+        android:layout_marginLeft="50dp"
+        android:background="#00ff0000"
+        android:fontFamily="@font/ohmnigullim050"
+        android:drawableStart="@drawable/manage_icon4"
+        android:drawableLeft="@drawable/manage_icon4"
+        android:text="   감정카드 다운로드"
+        android:textSize="20dp"
+        android:onClick="onClickManageButton4"/>
+
+    <View
+        android:id="@+id/manage_view4"
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:layout_below="@id/manage_btn4"
+        android:layout_alignLeft="@id/manage_btn4"
+        android:layout_centerHorizontal="true"
+        android:background="#4682B4" />
+
+    <TextView
+        android:id="@+id/manage_text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/manage_btn4"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/login_login_background"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="학급코드"
+        android:fontFamily="@font/ohmnigullim"
+        android:textColor="#000000"/>
+
+
+</RelativeLayout>

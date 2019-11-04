@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Teacher.CheckAnswer2">
+
+    <LinearLayout
+        android:background="#E6C138"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:id="@+id/linearlayout2"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="이름"
+            android:textSize="18dp"
+            android:fontFamily="@font/ohmnigullim"
+            android:textAlignment="center"
+            android:layout_weight="0.6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="단원번호"
+            android:textSize="18dp"
+            android:fontFamily="@font/ohmnigullim"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="문제번호"
+            android:textSize="18dp"
+            android:fontFamily="@font/ohmnigullim"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <ListView
+        android:layout_below="@id/linearlayout2"
+        android:id="@+id/listview2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/check2_btn1">
+    </ListView>
+
+    <Button
+        android:id="@+id/check2_btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/login_button2"
+        android:text="답변 다운로드"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/ohmnigullim"
+        android:onClick="onClickCheck2Button1"/>
+
+</RelativeLayout>

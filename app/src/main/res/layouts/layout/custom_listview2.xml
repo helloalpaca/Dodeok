@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingTop="10dp">
+
+        <ImageView
+            android:id="@+id/listview2_img"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/emotion_1"/>
+
+        <TextView
+            android:id="@+id/listview2_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:text="정영찬"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/ohmnigullim" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="・・・・・"
+            android:textSize="10dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/ohmnigullim"/>
+
+        <TextView
+            android:id="@+id/listview2_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:text="자랑스럽다"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/ohmnigullim"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/listview_linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/listview2_feedtext1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:text="힘내요(7)"
+            android:textSize="10dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/ohmnigullim" />
+
+        <TextView
+        android:id="@+id/listview2_feedtext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+        android:text="좋아요(7)"
+            android:textSize="10dp"
+            android:textColor="@color/black"
+        android:fontFamily="@font/ohmnigullim" />
+
+        <TextView
+            android:id="@+id/listview2_feedtext3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="나도 그래!(7)"
+            android:textSize="10dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/ohmnigullim" />
+
+        <TextView
+            android:id="@+id/listview2_feedtext4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textSize="10dp"
+            android:text="궁금해(7)"
+            android:textColor="@color/black"
+            android:fontFamily="@font/ohmnigullim" />
+
+        <TextView
+            android:id="@+id/listview2_feedtext5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textSize="10dp"
+            android:text="넌 특별해(7)"
+            android:textColor="@color/black"
+            android:fontFamily="@font/ohmnigullim" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/listview_linearlayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="10dp">
+
+        <Button
+            android:id="@+id/listview2_btn1"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:background="@drawable/login_button1"
+            android:text="힘내요"
+            android:textSize="10dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/ohmnigullim"/>
+
+        <Button
+            android:id="@+id/listview2_btn2"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/login_button1"
+            android:text="좋아요"
+            android:textSize="10dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/ohmnigullim"/>
+
+        <Button
+            android:id="@+id/listview2_btn3"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/login_button1"
+            android:text="나도 그래"
+            android:textSize="10dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/ohmnigullim"/>
+
+        <Button
+            android:id="@+id/listview2_btn4"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/login_button1"
+            android:text="궁금해"
+            android:textSize="10dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/ohmnigullim"/>
+
+        <Button
+            android:id="@+id/listview2_btn5"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/login_button1"
+            android:text="넌 특별해"
+            android:textSize="10dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/ohmnigullim"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+

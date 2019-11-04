@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativelayout_unit"
+    android:background="@drawable/unit_resize"
+    tools:context=".Student.Unit">
+
+    <TextView
+        android:id="@+id/textview_unit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ohmnigullim050"
+        android:text="1. 바르고 떳떳하게"
+        android:textColor="#000000"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/btn_unit"
+        android:background="@drawable/unit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="시작하기"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:fontFamily="@font/ohmnigullim"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="70dp"
+        android:onClick="onClickUnitButton1"/>
+
+</RelativeLayout>

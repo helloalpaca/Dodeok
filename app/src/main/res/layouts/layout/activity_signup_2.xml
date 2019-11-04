@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    tools:context=".Both.Signup_2">
+
+    <ImageView
+        android:id="@+id/signup2_img"
+        android:layout_width="200dp"
+        android:layout_height="140dp"
+        android:src="@drawable/signup2_img"/>
+
+    <Button
+        android:id="@+id/signup2_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/login_button2"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/signup2_img"
+        android:text="홈화면으로"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/ohmnigullim"
+        android:textColor="@color/white"
+        android:onClick="onClickSignup2Button1"/>
+
+</RelativeLayout>

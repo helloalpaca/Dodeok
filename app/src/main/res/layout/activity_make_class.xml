@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Teacher.MakeClass">
+
+    <ImageButton
+        android:id="@+id/makeclass_btn1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@android:drawable/ic_menu_revert"
+        android:onClick="onClickMakeClassButton1"/>
+
+    <EditText
+        android:id="@+id/makeclass_edittext1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/login_login_background"
+        android:layout_marginLeft="100dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:textSize="20dp"
+        android:hint="학급명"
+        android:fontFamily="@font/ohmnigullim"/>
+
+    <Spinner
+        android:id="@+id/makeclass_spinner1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/makeclass_edittext1"
+        android:entries="@array/grade" />
+
+    <Button
+        android:id="@+id/makeclass_btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_button2"
+        android:layout_below="@id/makeclass_spinner1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="학급가입코드 생성"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/ohmnigullim"
+        android:onClick="onClickMakeClassButton2"/>
+
+    <TextView
+        android:id="@+id/makeclass_text1"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/makeclass_btn2"
+        android:textSize="25dp"
+        android:fontFamily="@font/ohmnigullim"/>
+
+    <Button
+        android:id="@+id/makeclass_btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_button1"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/makeclass_text1"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100dp"
+        android:text="확인"
+        android:fontFamily="@font/ohmnigullim"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:onClick="onClickMakeClassButton3"/>
+
+</RelativeLayout>
