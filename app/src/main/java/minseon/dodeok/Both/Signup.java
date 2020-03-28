@@ -38,6 +38,7 @@ public class Signup_1 extends AppCompatActivity {
     Button btn1;
     public static String job;
     String newID,newPW;
+    final static public String signupURL = MainURL+"signup.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -94,89 +95,11 @@ public class Signup_1 extends AppCompatActivity {
         if(newPW.isEmpty() && newID.isEmpty())
             Toast.makeText(getApplicationContext(), "아이디/비밀번호를 입력해 주십시오.", Toast.LENGTH_LONG).show();
         if(checked && checked2 && !newID.isEmpty() && !newPW.isEmpty()) {
-            GetSignupData task = new GetSignupData();
-            task.execute(newID, newPW);
+            InsertSignupData task = new InsertSignupData(this);
+            String serverURL = "id="+newID+"&pw="+newPW+"&job="+job;
+            task.execute(signupURL, serverURL);
             Intent intent = new Intent(Signup_1.this, Signup_2.class);
             startActivity(intent);
-        }
-    }
-
-    private class GetSignupData extends AsyncTask<String,Void,String> {
-        ProgressDialog progressDialog;
-        String errorString = null;
-
-        final static public String Signup_URL = MainURL+"signup.php";
-
-        @Override
-        protected String doInBackground(String... strings) {
-
-            String serverURL = "id="+newID+"&pw="+newPW+"&job="+job;
-            if (android.os.Build.VERSION.SDK_INT > 9) {
-                StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
-                StrictMode.setThreadPolicy(policy);
-            }
-
-            try {
-                URL url = new URL(Signup_URL);
-                HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
-
-                httpURLConnection.setReadTimeout(5000);
-                httpURLConnection.setConnectTimeout(1000);
-                httpURLConnection.setRequestMethod("POST");
-                httpURLConnection.setDoInput(true);
-                httpURLConnection.connect();
-
-                OutputStream outputStream = httpURLConnection.getOutputStream();
-                outputStream.write(serverURL.getBytes("UTF-8"));
-                outputStream.flush();
-                outputStream.close();
-
-                int responseStatusCode = httpURLConnection.getResponseCode();
-                //Log.d(TAG,"response - "+responseStatusCode);
-
-                InputStream inputStream;
-                if (responseStatusCode == HttpURLConnection.HTTP_OK) {
-                    inputStream = httpURLConnection.getInputStream();
-                } else {
-                    inputStream = httpURLConnection.getErrorStream();
-                }
-
-                InputStreamReader inputStreamReader = new InputStreamReader(inputStream, "UTF-8");
-                BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
-
-                StringBuilder sb = new StringBuilder();
-                String line;
-
-                while ((line = bufferedReader.readLine()) != null) {
-                    sb.append(line);
-                    //System.out.println(line);
-                }
-
-                bufferedReader.close();
-
-                return sb.toString().trim();
-
-            } catch (Exception e) {
-                Log.d("TAG", "InsertData : Error", e);
-                errorString = e.toString();
-
-                return null;
-            }
-        }
-
-        @Override
-        protected void onPreExecute() {
-            super.onPreExecute();
-
-            progressDialog = ProgressDialog.show(Signup_1.this, "Please Wait", null, true, true);
-        }
-
-        @Override
-        protected void onPostExecute(String result) {
-            super.onPostExecute(result);
-
-            progressDialog.dismiss();
-            Toast.makeText(Signup_1.this,"계정을 생성했습니다.",Toast.LENGTH_SHORT).show();
         }
     }
 }

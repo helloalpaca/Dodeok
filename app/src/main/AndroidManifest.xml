@@ -13,7 +13,7 @@
         <activity android:name=".Teacher.StatusStudent"></activity>
         <activity android:name=".Teacher.JoinStudent" />
         <activity
-            android:name=".Both.Signup_2"
+            android:name=".Both.SignupSuccess"
             android:theme="@style/MovieDialog" />
         <activity
             android:name=".Student.Emotion2" />
@@ -70,7 +70,7 @@
             android:theme="@style/MovieDialog" />
         <activity android:name=".Student.Home" />
         <activity android:name=".Both.Login" />
-        <activity android:name=".Both.Signup_1" />
+        <activity android:name=".Both.Signup" />
         <activity
             android:name=".Both.MainActivity"
             android:theme="@style/SplashTheme">

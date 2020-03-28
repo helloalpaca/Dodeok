@@ -41,6 +41,8 @@ public class MakeClass extends AppCompatActivity {
     boolean flag = false;
     int classgradeint;
 
+    final static public String makeClassURL = MainURL + "makeclass.php/";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -80,7 +82,10 @@ public class MakeClass extends AppCompatActivity {
             if(newclassgrade.equals("4학년")) classgradeint = 4;
             if(newclassgrade.equals("5학년")) classgradeint = 5;
             if(newclassgrade.equals("6학년")) classgradeint = 6;
-            MakeClass();
+
+            String serverURL = "id=" + userID + "&classname=" + newclassname + "&grade=" + classgradeint + "&classcode=" + newclasscode;
+            //System.out.println(userID+", "+newclassname+", "+newclassgrade+", "+newclasscode);
+            MakeClass(serverURL);
             Toast.makeText(getApplicationContext(), "학급이 생성되었습니다.", Toast.LENGTH_LONG).show();
         }
         else{
@@ -108,20 +113,15 @@ public class MakeClass extends AppCompatActivity {
         return sb.toString();
     }
 
-    private void MakeClass() {
-        String errorString = null;
-        String mJsonString = null;
-        String MakeClass_URL = MainURL + "makeclass.php/";
+    private void MakeClass(String serverURL) {
 
-        String serverURL = "id=" + userID + "&classname=" + newclassname + "&grade=" + classgradeint + "&classcode=" + newclasscode;
-        System.out.println(userID+", "+newclassname+", "+newclassgrade+", "+newclasscode);
         if (android.os.Build.VERSION.SDK_INT > 9) {
             StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
             StrictMode.setThreadPolicy(policy);
         }
 
         try {
-            URL url = new URL(MakeClass_URL);
+            URL url = new URL(makeClassURL);
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
 
             System.out.println("HTTPURLCONNETCION 위");
@@ -173,11 +173,9 @@ public class MakeClass extends AppCompatActivity {
 
         } catch (Exception e) {
             Log.d("TAG", "InsertData : Error", e);
-            errorString = e.toString();
             //System.out.println("Inside Error");
 
-            //return null;
         }
-        //System.out.println("MakeClass 끝!!");
     }
+
 }
