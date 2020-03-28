@@ -1,5 +1,5 @@
 # Dodeok
-<a href='https://play.google.com/store/apps/details?id=minseon.dodeok'><img src="/images/google-play-badge.png" width="20%" height="2%" title="Dodeok" alt="Dodeok"></img></a>s <br />
+<a href='https://play.google.com/store/apps/details?id=minseon.dodeok'><img src="/images/google-play-badge.png" width="20%" height="2%" title="Dodeok" alt="Dodeok"></img></a> <br />
 Android Application for Moral Learning
 - email address : jms393497@gmail.com <br />
 - blog : https://popcorn16.tistory.com/ <br />
@@ -27,19 +27,19 @@ Android Application for Moral Learning
 
 ## Database table information
 database table backup file is in /server/backup.sql <br />
-mysql -u [account] -p dodeok < backup.sql
+Import Command : mysql -u [account] -p dodeok < backup.sql
 
 ## Play Store
 - launch date : 2019.07.16
 - last update : 2019.10.18
 
 ## User Guide
-<img src="/images/info1.png" width="30%" height="30%" title="info1" alt="info1"></img>
-<img src="/images/info2.png" width="30%" height="30%" title="info1" alt="info1"></img>
-<img src="/images/info3.png" width="30%" height="30%" title="info1" alt="info1"></img>
-<img src="/images/info4.png" width="30%" height="30%" title="info1" alt="info1"></img>
-<img src="/images/info5.png" width="30%" height="30%" title="info1" alt="info1"></img>
-<img src="/images/info6.png" width="30%" height="30%" title="info1" alt="info1"></img>
+<img src="/images/info1.png" width="40%" height="40%" title="info1" alt="info1"></img>
+<img src="/images/info2.png" width="40%" height="40%" title="info1" alt="info1"></img>
+<img src="/images/info3.png" width="40%" height="40%" title="info1" alt="info1"></img>
+<img src="/images/info4.png" width="40%" height="40%" title="info1" alt="info1"></img>
+<img src="/images/info5.png" width="40%" height="40%" title="info1" alt="info1"></img>
+<img src="/images/info6.png" width="40%" height="40%" title="info1" alt="info1"></img>
 
 ## License
-MoveItMovie is released under the MIT License. http://www.opensource.org/licenses/mit-license
+<img src="/images/by-nc-nd.png" width="20%" height="20%" title="license" alt="license"></img>
