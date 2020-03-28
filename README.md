@@ -1,5 +1,5 @@
 # Dodeok
-<img src="/images/google-play-badge.png" width="25%" height="25%" href="https://play.google.com/store/apps/details?id=minseon.dodeok" title="Dodeok" alt="Dodeok"></img> <br />
+<a href='https://play.google.com/store/apps/details?id=minseon.dodeok'><img src="/images/google-play-badge.png" width="20%" height="2%" title="Dodeok" alt="Dodeok"></img></a>s <br />
 Android Application for Moral Learning
 - email address : jms393497@gmail.com <br />
 - blog : https://popcorn16.tistory.com/ <br />
@@ -34,12 +34,12 @@ mysql -u [account] -p dodeok < backup.sql
 - last update : 2019.10.18
 
 ## User Guide
-<img src="/images/info1.png" width="50%" height="50%" title="info1" alt="info1"></img>
-<img src="/images/info2.png" width="50%" height="50%" title="info1" alt="info1"></img>
-<img src="/images/info3.png" width="50%" height="50%" title="info1" alt="info1"></img>
-<img src="/images/info4.png" width="50%" height="50%" title="info1" alt="info1"></img>
-<img src="/images/info5.png" width="50%" height="50%" title="info1" alt="info1"></img>
-<img src="/images/info6.png" width="50%" height="50%" title="info1" alt="info1"></img>
+<img src="/images/info1.png" width="30%" height="30%" title="info1" alt="info1"></img>
+<img src="/images/info2.png" width="30%" height="30%" title="info1" alt="info1"></img>
+<img src="/images/info3.png" width="30%" height="30%" title="info1" alt="info1"></img>
+<img src="/images/info4.png" width="30%" height="30%" title="info1" alt="info1"></img>
+<img src="/images/info5.png" width="30%" height="30%" title="info1" alt="info1"></img>
+<img src="/images/info6.png" width="30%" height="30%" title="info1" alt="info1"></img>
 
 ## License
 MoveItMovie is released under the MIT License. http://www.opensource.org/licenses/mit-license

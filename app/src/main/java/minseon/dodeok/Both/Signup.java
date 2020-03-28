@@ -1,28 +1,17 @@
 package minseon.dodeok.Both;
 
-import android.app.ProgressDialog;
 import android.content.Intent;
-import android.os.AsyncTask;
 import android.os.Bundle;
-import android.os.StrictMode;
 import android.support.v7.app.AppCompatActivity;
 import android.text.util.Linkify;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
-import android.widget.TextView;
 import android.widget.Toast;
 
-import java.io.BufferedReader;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.OutputStream;
-import java.net.HttpURLConnection;
-import java.net.URL;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -30,7 +19,7 @@ import minseon.dodeok.R;
 
 import static minseon.dodeok.Both.Login.MainURL;
 
-public class Signup_1 extends AppCompatActivity {
+public class Signup extends AppCompatActivity {
 
     RadioGroup radioGroup;
     EditText edittext_id, edittext_pw, edittext_pw2;
@@ -43,7 +32,7 @@ public class Signup_1 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_signup_1);
+        setContentView(R.layout.activity_signup);
 
         radioGroup = (RadioGroup)findViewById(R.id.signup_radiogroup);
         edittext_id = (EditText)findViewById(R.id.signup_edittext1);
@@ -98,7 +87,7 @@ public class Signup_1 extends AppCompatActivity {
             InsertSignupData task = new InsertSignupData(this);
             String serverURL = "id="+newID+"&pw="+newPW+"&job="+job;
             task.execute(signupURL, serverURL);
-            Intent intent = new Intent(Signup_1.this, Signup_2.class);
+            Intent intent = new Intent(Signup.this, SignupSuccess.class);
             startActivity(intent);
         }
     }

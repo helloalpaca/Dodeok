@@ -7,16 +7,16 @@ import android.view.View;
 
 import minseon.dodeok.R;
 
-public class Signup_2 extends AppCompatActivity {
+public class SignupSuccess extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_signup_2);
+        setContentView(R.layout.activity_signup_success);
     }
 
     public void onClickSignup2Button1(View view){
-        Intent intent = new Intent(Signup_2.this, MainActivity.class);
+        Intent intent = new Intent(SignupSuccess.this, MainActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         intent.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
         startActivity(intent);
