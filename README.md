@@ -34,12 +34,16 @@ Import Command : mysql -u [account] -p dodeok < backup.sql
 - last update : 2019.10.18
 
 ## User Guide
-<img src="/images/info1.png" width="40%" height="40%" title="info1" alt="info1"></img>
-<img src="/images/info2.png" width="40%" height="40%" title="info1" alt="info1"></img>
-<img src="/images/info3.png" width="40%" height="40%" title="info1" alt="info1"></img>
-<img src="/images/info4.png" width="40%" height="40%" title="info1" alt="info1"></img>
-<img src="/images/info5.png" width="40%" height="40%" title="info1" alt="info1"></img>
-<img src="/images/info6.png" width="40%" height="40%" title="info1" alt="info1"></img>
+<img src="/images/info1.png" width="45%" height="45%" title="info1" alt="info1"></img>
+<img src="/images/info2.png" width="45%" height="45%" title="info1" alt="info1"></img>
+<img src="/images/info3.png" width="45%" height="45%" title="info1" alt="info1"></img>
+<img src="/images/info4.png" width="45%" height="45%" title="info1" alt="info1"></img>
+<img src="/images/info5.png" width="45%" height="45%" title="info1" alt="info1"></img>
+<img src="/images/info6.png" width="45%" height="45%" title="info1" alt="info1"></img>
+
+## List of Awards
+- Busan Education Data Exhibition: Grade 1
+- National Education Data Exhibition: Grade 3
 
 ## License
 <img src="/images/by-nc-nd.png" width="20%" height="20%" title="license" alt="license"></img>
