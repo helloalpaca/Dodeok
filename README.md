@@ -2,7 +2,6 @@
 <a href='https://play.google.com/store/apps/details?id=minseon.dodeok'><img src="/images/google-play-badge.png" width="20%" height="2%" title="Dodeok" alt="Dodeok"></img></a> <br />
 Android Application for Moral Learning
 - email address : jms393497@gmail.com <br />
-- blog : https://popcorn16.tistory.com/ <br />
 
 ## Introduction
 1. 도덕과 단원별 실천항목(‘미션’)을 일정 기간 동안 실천한 후 자기평가 가능
